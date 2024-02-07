@@ -22,3 +22,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define TAPPING_TOGGLE 1
 #define TAPPING_TERM 280
 #define UNICODE_SELECTED_MODES UNICODE_MODE_WINCOMPOSE, UNICODE_MODE_MACOS, UNICODE_MODE_LINUX
+#define RGBLIGHT_ANIMATIONS
+
+// The pin connected to the data pin of the LEDs
+//#define WS2812_DI_PIN D7
+// The number of LEDs connected
+//#define RGB_MATRIX_LED_COUNT 54
+

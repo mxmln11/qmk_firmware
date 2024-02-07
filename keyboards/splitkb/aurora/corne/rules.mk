@@ -14,3 +14,14 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 DEFAULT_FOLDER = splitkb/aurora/corne/rev1
+CONVERT_TO=liatris
+
+WPM_ENABLE = yes  # Enable word per minute counter
+LTO_ENABLE = no  # Makes hex file smaller
+OLED_ENABLE = yes # Enable OLEDs
+
+
+RGB_MATRIX_SPLIT = yes
+RGB_MATRIX_DRIVER = ws2812
+RGBLIGHT_ENABLE = yes
+#WS2812_DRIVER = vendor # Use the RP2040's PIO interface
