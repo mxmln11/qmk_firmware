@@ -195,8 +195,8 @@ static void render_logo(void) {
 }
 
 static void render_logo_text(void) {
-    oled_write_P(PSTR("Mxmln"), false);
-    oled_write_P(PSTR("Schfr"), false);
+    oled_write_P(PSTR("Max's"), false);
+    oled_write_P(PSTR("Corne"), false);
 }
 
 static void render_kb_LED_state(void) {
@@ -243,8 +243,8 @@ static void render_layer_state(void) {
 
 // #include "demon.c"
 // #include "crab.c"
-//#include "music-bars.c"
-#include "spaceship.c"
+#include "music-bars.c"
+//#include "spaceship.c"
 
 bool oled_task_kb(void) {
 /*     if (!oled_task_user()) {
@@ -263,8 +263,8 @@ bool oled_task_kb(void) {
         render_kb_LED_state();
     } else {
         // Call this to render the space stuff on the one screen
-        //oled_render_anim();
-        render_spaceship();
+        oled_render_anim();
+        //render_spaceship();
     };
     return false;
 }
